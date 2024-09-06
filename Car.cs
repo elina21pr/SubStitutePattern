@@ -10,7 +10,7 @@ namespace SubStitutePattern
     {
       public void Start()
         {
-            Console.WriteLine("Car  went ...");
+           Console.WriteLine("Car  went ...");
         } 
     }
 }
