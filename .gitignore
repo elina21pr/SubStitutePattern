@@ -1,0 +1,68 @@
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+
+# ASP.NET
+wwwroot/
+*.log
+*.dmp
+*.pdb
+
+# Rider
+.idea/
+
+# Visual Studio
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.suo
+*.suo.*
+*.tmp
+*.temp
+*.tmp_proj
+*.log
+*.vs/
+*.vscode/
+*.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.temp
+*.tmp_proj
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# DotCover
+*.dotCover
+
+# TeamCity
+*.teamcity/
+
+# Azure
+*.publishsettings
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Node.js
+node_modules/
+
+# Mac
+.DS_Store
+
+# Linux
+*~
