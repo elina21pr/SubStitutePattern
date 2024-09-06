@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SubStitutePattern
 {
-    internal class RealCar
+    public class Car : ICar
     {
+      public void Start()
+        {
+            Console.WriteLine("Car  went ...");
+        } 
     }
 }

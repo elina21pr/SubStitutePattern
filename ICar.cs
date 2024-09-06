@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SubStitutePattern
 {
-    internal interface ICar
+    public interface ICar
     {
+        void Start();
     }
 }

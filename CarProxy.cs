@@ -6,7 +6,28 @@ using System.Threading.Tasks;
 
 namespace SubStitutePattern
 {
-    internal class CarProxy
+    public class CarProxy : ICar
     {
+        private Car realCar;
+        private bool hasAccess;
+
+        public CarProxy(bool hasAccess)
+        {
+            this.hasAccess = hasAccess;
+            this.realCar = new Car();
+        }
+
+        public void Start()
+        {
+            if (hasAccess)
+            {
+                Console.WriteLine("Access to the car is provided. Starting car... ");
+                realCar.Start();
+            }
+            else
+            {
+                Console.WriteLine("There is no access to the car. The car is standing...");
+            }
+        }
     }
 }

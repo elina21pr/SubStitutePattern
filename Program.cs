@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using SubStitutePattern;
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        ICar carwithaccesstrue = new CarProxy(true);
+        carwithaccesstrue.Start();
+
+        ICar carwithaccessfalse = new CarProxy(false);
+        carwithaccessfalse.Start();
+    }
+}
