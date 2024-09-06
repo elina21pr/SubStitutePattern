@@ -1,5 +1,4 @@
-﻿
-using SubStitutePattern;
+﻿using SubStitutePattern;
 
 public class Program
 {
